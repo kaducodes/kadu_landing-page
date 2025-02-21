@@ -84,6 +84,14 @@ body {
     padding-top: 30px;
 }
 
+@media (max-width: 768px) {
+    .conteudo-principal {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+}
+
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
